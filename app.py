@@ -1,7 +1,9 @@
 from flask import Flask, abort
 from flask import Response
+from flask_cors import CORS
 import json
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def unauthorized():
