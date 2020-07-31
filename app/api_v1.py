@@ -1,6 +1,7 @@
+import json
+import os
 from flask import Flask, Response, Blueprint
 from flask_cors import CORS
-import json
 
 api_v1 = Blueprint('api_v1', __name__)
 
@@ -16,7 +17,7 @@ def get_bio(language_id):
 def parse_json_data(language_id):
 
     data = ''
-    with open('json/bio_%s.json' % language_id) as json_file:
+    with open((os.path.dirname(__file__)) + '/json/bio_%s.json' % language_id, encoding='utf-8') as json_file:
         data = json.load(json_file)
 
     return data

@@ -1,5 +1,3 @@
-# Resume CV Website - POC Backend REST API with Python Flask
+# Resume CV Website - Made with Python Flask
 
-Developing a web application with Backend REST API Layer written in Python with Flask Framework and Frontend Layer developed using Vue.js Framework.
-
-In this branch you can find the backend layer.
+Developing a web application in Python with Flask Framework, templating with Bootstrap, serving with Gunicorn and Nginx and using Docker with Docker Compose as container solution for development.

@@ -1,11 +1,18 @@
 {
+    "lang_id": "en",
     "first_name": "Matteo",
     "last_name": "De Ponti",
-    "role": "Senior Software Developer & Software Architect",
+    "role": "DevOps & Cloud Engineer",
     "linkedin":"https://www.linkedin.com/in/matteo-de-ponti-2a904635",
     "twitter":"https://www.twitter.com/depontimatteo",
-    "web":"www.maculade.com/matteodeponti",
-    "mail":"matteo.deponti@maculade.com",
-    "bio": "Mi occupo di architettare e sviluppare software, principalmente applicazioni web, API e bash scripting in ambiente Linux. Programmo in Perl, Python, HTML5, CSS3, Javascript ES* (frameworks Vue.js, React.js) e Bash, lavoro con webserver Apache e Nginx e database PostgreSQL e mySQL. Utilizzo le soluzioni Cloud di AWS. Gestisco le attività mediante Metodologia Agile (Kanban o SCRUM, utilizzando Jira), conosco ed utilizzo le practices ITIL v4 e la metodologia di architettura software SOLID. Se vuoi sapere più nel dettaglio di cosa mi occupo, puoi scaricare il mio Curriculum Vitae in forma Resume oppure in forma estesa. Puoi contattarmi scrivendo a matteo.deponti@maculade.com.",
-    "bio_short": ""
+    "github":"https://www.github.com/depontimatteo",
+    "web":"www.maculade.com",
+    "email":"matteo.deponti@maculade.com",
+    "address": "via Matteotti 27/5",
+    "zip_code": "20068",
+    "city": "Peschiera Borromeo",
+    "city_area": "Milan",
+    "country": "Italy",
+    "phone": "(+39) 351.91.80.120",
+    "bio": "I am a software architect and developer, my core business is about web applications, APIs and bash scripting on OS Linux. I architect and manage Cloud infrastructures on AWS. I’m applying DevOps for automating software test, deploy and release. I use Python, Perl, HTML5, CSS3, Javascript and Bash with Apache2 or Nginx webservers, Gunicorn and Plack appservers, Flask and Dancer2 MVC Web Frameworks, PostgreSQL or mySQL DBMS. I have expertise on hardware and embedded solutions, mainly Raspberry Pi and Arduino.. I follow ITIL4 best practices and Agile Methodologies. After several years as an engineer, I’m currently managing a team of people"
 }
