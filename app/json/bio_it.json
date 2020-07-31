@@ -14,5 +14,56 @@
     "city_area": "Milano",
     "country": "Italia",
     "phone": "(+39) 351.91.80.120",
-    "bio": "Mi occupo di architettare e sviluppare software (principalmente applicazioni web, API e bash scripting) e di gestire Sistemi Operativi in ambiente Linux. Architetto e gestisco infrastrutture in Cloud con AWS. Applico DevOps automatizzando la produzione, il testing e il rilascio di software. Programmo principalmente in Python, Perl, HTML5, Javascript e Bash, utilizzo webserver Apache2 e Nginx, appserver Gunicorn e Plack, web frameworks MVC Flask e Dancer2, DBMS PostgreSQL e mySQL. Sono esperto di hardware integrato, con esperienza su Raspberry Pi e Arduino. Sono abituato a realizzare i progetti IT in autonomia, secondo le linee guida ITIL® 4. Gestisco e coordino un team di sviluppatori."
+    "bio": "Mi occupo di architettare e sviluppare software (principalmente applicazioni web, API e bash scripting) e di gestire Sistemi Operativi in ambiente Linux. Architetto e gestisco infrastrutture in Cloud con AWS. Applico DevOps automatizzando la produzione, il testing e il rilascio di software. Programmo principalmente in Python, Perl, HTML5, Javascript e Bash, utilizzo webserver Apache2 e Nginx, appserver Gunicorn e Plack, web frameworks MVC Flask e Dancer2, DBMS PostgreSQL e mySQL. Sono esperto di hardware integrato, con esperienza su Raspberry Pi e Arduino. Sono abituato a realizzare i progetti IT in autonomia, secondo le linee guida ITIL® 4. Gestisco e coordino un team di sviluppatori.",
+    "experience": {
+        "0": {
+            "company": "Xidera srl",
+            "start": "Apr 2008",
+            "end": "Nov 2018",
+            "role": "Full Stack Software Engineer (Junior e Senior)",
+            "description": "Mi sono occupato di analisi e sviluppo di applicazioni web, di API e di gestione dei sistemi in ambiente Linux, con particolare cura verso le soluzioni embedded e non presidiate. Ho ricoperto il ruolo di Project Manager IT per tutti i progetti affrontati, secondo le linee guida ITIL. Progetti rilevanti: Chatbots, Sistema di gestione degli accessi pazienti presso diverse strutture, spesso sanitarie (es. Istituto Clinico Humanitas, Policlinico Gemelli, Ospedale Bambin Gesù, IEO, Comune di Parma, Comune di Piacenza), revisione nuova versione S.O. caricato su dispositivi non presidiati"
+        },
+        "1": {
+            "company": "Xidera srl (GPI Group)",
+            "start": "Nov 2018",
+            "end": "attuale",
+            "role": "DevOps & Cloud Engineer – Tech Team Lead",
+            "description": "Gestisco il team di sviluppatori di Xidera, sia per quanto concerne lo sviluppo delle web applications e delle API di tutti i prodotti dell’azienda, sia per quanto riguarda lo sviluppo di software caricato su dispositivi non presidiati. Coordino e architetto le soluzioni Cloud su AWS, finalizzate al traffico elevato e all’alta affidabilità. Ho introdotto la metodologia DevOps e CI/CD con strumenti come Ansible e Bitbucket. Gestisco i software interni. Faccio parte del team di revisione dei processi. Mi occupo di effettuare tutte le analisi relative ai progetti IT e di gestirli fino al loro completamento, spesso sviluppando direttamente il software. Progetti rilevanti: sistema di pagamento automatico ai chioschi totem"
+        },
+        "2": {
+            "company": "Xidera srl (GPI Group)",
+            "start": "Mar 2020",
+            "end": "attuale",
+            "role": "Prenotami.cloud Tech Lead",
+            "description": "Sono il capo-progetto tecnico di prenotami.cloud, una soluzione SaaS derivante da una profonda revisione architetturale di alcuni software legacy preesistenti, per garantirne scalabilità orizzontale e quindi poter gestire l’applicazione in alta affidabilità e disponibilità in Cloud AWS. Ho architettato l’infrastruttura su AWS, scompattando una applicazione monolitica in diversi servizi, per arrivare ad una soluzione SOA scalabile. Ho utilizzato chroot jails e Docker come sistemi di containerizzazione. Ho studiato e implementato una pipeline CI utilizzando Bitbucket Pipelines ed un sistema di CD con Ansible come strumento di delivery in produzione. Ho utilizzato locust.io come piattaforma di load & stress testing. Ho configurato ed usato diversi servizi AWS, sia per la creazione dell’infrastruttura (ELB, EC2, RDS, Route53, API GW, Lambda, solo per citarne alcuni) sia per le operations e il monitoraggio (CloudWatch). Il progetto prevede una gestione in modalità Agile, con metodologia Scrum e rilasci con sprint di una settimana."
+        }
+    },
+    "education": {
+        "0": {
+            "school": "ITIS E. Mattei - San Donato Milanese",
+            "start": "Set 1999",
+            "end": "Lug 2004",
+            "award": "Diploma di Perito Informatico",
+            "grade": "95/100"
+        },
+        "1": {
+            "school": "Università degli Studi di Milano",
+            "start": "Ott 2004",
+            "end": "Feb 2008",
+            "award": "Laurea Triennale in Comunicazione Digitale",
+            "grade": "95/110"
+        }
+    },
+    "courses": {
+
+    },
+    "certifications": {
+
+    },
+    "skills": {
+
+    },
+    "interests": {
+
+    }
 }

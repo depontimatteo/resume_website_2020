@@ -10,6 +10,6 @@ before_script:
     - dos2unix ./bin/docker_gunicorn_start.sh
     - chmod +x ./bin/docker_gunicorn_start.sh
 script:
-  - ./bin/docker_gunicorn_start.sh
+  - ./bin/docker_gunicorn_start.sh daemon
   - sleep 5
   - cd tests ; pytest
