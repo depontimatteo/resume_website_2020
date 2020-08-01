@@ -16,7 +16,6 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">{{ gettext('Formazione') }}</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">{{ gettext('Skills') }}</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">{{ gettext('Certificazioni e Corsi') }}</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">{{ gettext('Interessi') }}</a></li>
                 </ul>
             </div>
         </nav>
@@ -29,11 +28,20 @@
                         {{ bio.first_name }}
                         <span class="text-primary">{{ bio.last_name }}</span>
                     </h1>
-                    <div class="subheading mb-5">
+                    <div class="subheading mb-4">
                         {{ bio.address }} · {{ bio.zip_code }} {{ bio.city }}, {{ bio.city_area }} · {{ bio.country }} · {{ bio.phone }} · 
                         <a href="mailto:{{ bio.email }}">{{ bio.email }}</a>
                     </div>
-                    <p class="lead mb-5">{{ bio.bio }}</p>
+                    <p class="lead mb-3">{{ bio.bio }}</p>
+                    <p class="lead mb-4">
+                        {{ gettext('Questo sito web rappresenta una <strong>Proof of Concept</strong> di un progetto sviluppato seguendo la filosofia e gli strumenti <strong>DevOps</strong>.<br />') }}
+                        {{ gettext('Il linguaggio di programmazione di backend è il <strong>Python</strong>, i linguaggi di frontend sono <strong>HTML5, CSS3, Javascript</strong>.<br />') }}
+                        {{ gettext('Il web framework MVC utilizzato è <strong>Flask</strong>, configurato per essere servito da un Application Server <strong>Gunicorn</strong> protetto da <strong>Nginx</strong> come webserver in modalità <strong>reverse proxy</strong>. Il grid-system è <strong>Bootstrap</strong>.<br />') }}
+                        {{ gettext('Come sistema di containerizzazione è stato scelto <strong>Docker</strong> (<strong>docker-compose</strong> come orchestratore non distribuito in ambiente di sviluppo).<br />') }}
+                        {{ gettext("Gli unit test sono stati realizzati con <strong>pytest</strong>, mentre la componente di versionamento del codice prevede l'utilizzo di <strong>Git</strong> e un repository remoto su <strong>Github</strong>, integrato con <strong>Travis CI</strong> per abilitare i test automatici in modalità <strong>Continuous Integration</strong>.<br />") }}
+                        {{ gettext("Il repository del progetto è disponibile qui: <a href='https://github.com/depontimatteo/resume_website_2020'>https://github.com/depontimatteo/resume_website_2020</a>") }}
+
+                    </p>
                     <div class="social-icons">
                         <a class="social-icon" href="{{ bio.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="{{ bio.github }}"><i class="fab fa-github"></i></a>
@@ -85,58 +93,28 @@
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">{{ gettext('Skills')}}</h2>
-                    <div class="subheading mb-3">{{ gettext('DevOps & CI/CD') }}</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:git" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:bitbucket" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:travisci" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:ansible" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="ant-design:github-filled" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:jenkins" data-inline="false"></span></li>
-                    </ul>
-                    <div class="subheading mb-3">{{ gettext('Linguaggi di programmazione & Frameworks') }}</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><span class="iconify" data-icon="carbon:logo-python" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="simple-icons:perl" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="mdi:bash" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:php" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="ant-design:html5-filled" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="bx:bxl-javascript" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="bx:bxl-react" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:vue-js" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="brandico:wordpress" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:flask" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="logos:gunicorn" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:nginx" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:apache" data-inline="false"></span></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="bi:bootstrap" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:docker" data-inline="false"></span></li>
-                        <!--<li class="list-inline-item"><span class="iconify" data-icon="cib:kubernetes" data-inline="false"></span></li>-->
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:amazon-aws" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:postgresql" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:redis" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:jira" data-inline="false"></span></li>
-                        <li class="list-inline-item"><span class="iconify" data-icon="cib:confluence" data-inline="false"></span></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
+                    {% if bio["skills"].items()|length > 0 %}
+                        {% for key,skills_section in bio["skills"].items()|sort %}
+                            <div class="subheading mb-3">{{ skills_section.description }}</div>
+                            <ul class="list-inline dev-icons">
+                                {% if skills_section["tools"].items()|length > 0 %}
+                                    {% for i_key,skill in skills_section["tools"].items()|sort %}
+                                        <li class="list-inline-item text-center"><span class="iconify" data-icon="{{ skill.iconify_id }}" data-inline="false"></span><h6>{{ skill.name }}</h6></li>
+                                    {% endfor %}
+                                {% endif %}
+                            </ul>
+                        {% endfor %}
+                    {% endif %}
+                    <div class="subheading mb-3">{{ gettext('Altre Skills')}}</div>
                     <ul class="fa-ul mb-0">
+                    {% if bio["other_skills"].items()|length > 0 %}
+                        {% for key,skills_section in bio["other_skills"].items()|sort %}
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
+                            {{ skills_section }}
                         </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
+                        {% endfor %}
+                    {% endif %}
                     </ul>
                 </div>
             </section>
@@ -144,56 +122,17 @@
             <!-- Awards-->
             <section class="resume-section" id="courses">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <h2 class="mb-5">{{ gettext('Certificazioni e corsi')}}</h2>
                     <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
+                        {% if bio["courses"].items()|length > 0 %}
+                            {% for key,course in bio["courses"].items()|sort %}
+                            <li>
+                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                                {{ course.name }} - <i>{{ course.organization }}</i>
+                            </li>
+                            {% endfor %}
+                        {% endif %}
                     </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
                 </div>
             </section>
         </div>

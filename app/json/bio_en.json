@@ -15,4 +15,298 @@
     "country": "Italy",
     "phone": "(+39) 351.91.80.120",
     "bio": "I am a software architect and developer, my core business is about web applications, APIs and bash scripting on OS Linux. I architect and manage Cloud infrastructures on AWS. I’m applying DevOps for automating software test, deploy and release. I use Python, Perl, HTML5, CSS3, Javascript and Bash with Apache2 or Nginx webservers, Gunicorn and Plack appservers, Flask and Dancer2 MVC Web Frameworks, PostgreSQL or mySQL DBMS. I have expertise on hardware and embedded solutions, mainly Raspberry Pi and Arduino.. I follow ITIL4 best practices and Agile Methodologies. After several years as an engineer, I’m currently managing a team of people"
+    "experience": {
+        "0": {
+            "company": "Xidera srl",
+            "start": "Apr 2008",
+            "end": "Nov 2018",
+            "role": "Full Stack Software Engineer (Junior e Senior)",
+            "description": "Mi sono occupato di analisi e sviluppo di applicazioni web, di API e di gestione dei sistemi in ambiente Linux, con particolare cura verso le soluzioni embedded e non presidiate. Ho ricoperto il ruolo di Project Manager IT per tutti i progetti affrontati, secondo le linee guida ITIL. Progetti rilevanti: Chatbots, Sistema di gestione degli accessi pazienti presso diverse strutture, spesso sanitarie, revisione nuova versione S.O. caricato su dispositivi non presidiati"
+        },
+        "1": {
+            "company": "Xidera srl (GPI Group)",
+            "start": "Nov 2018",
+            "end": "attuale",
+            "role": "DevOps & Cloud Engineer – Tech Team Lead",
+            "description": "Gestisco il team di sviluppatori di Xidera, sia per quanto concerne lo sviluppo delle web applications e delle API di tutti i prodotti dell’azienda, sia per quanto riguarda lo sviluppo di software caricato su dispositivi non presidiati. Coordino e architetto le soluzioni Cloud su AWS, finalizzate al traffico elevato e all’alta affidabilità. Ho introdotto la metodologia DevOps e CI/CD con strumenti come Ansible e Bitbucket. Gestisco i software interni. Faccio parte del team di revisione dei processi. Mi occupo di effettuare tutte le analisi relative ai progetti IT e di gestirli fino al loro completamento, spesso sviluppando direttamente il software. Progetti rilevanti: sistema di pagamento automatico ai chioschi totem"
+        },
+        "2": {
+            "company": "Xidera srl (GPI Group)",
+            "start": "Mar 2020",
+            "end": "attuale",
+            "role": "Prenotami.cloud Tech Lead",
+            "description": "Sono il capo-progetto tecnico di prenotami.cloud, una soluzione SaaS derivante da una profonda revisione architetturale di alcuni software legacy preesistenti, per garantirne scalabilità orizzontale e quindi poter gestire l’applicazione in alta affidabilità e disponibilità in Cloud AWS. Ho architettato l’infrastruttura su AWS, scompattando una applicazione monolitica in diversi servizi, per arrivare ad una soluzione SOA scalabile. Ho utilizzato chroot jails e Docker come sistemi di containerizzazione. Ho studiato e implementato una pipeline CI utilizzando Bitbucket Pipelines ed un sistema di CD con Ansible come strumento di delivery in produzione. Ho utilizzato locust.io come piattaforma di load & stress testing. Ho configurato ed usato diversi servizi AWS, sia per la creazione dell’infrastruttura (ELB, EC2, RDS, Route53, API GW, Lambda, solo per citarne alcuni) sia per le operations e il monitoraggio (CloudWatch). Il progetto prevede una gestione in modalità Agile, con metodologia Scrum e rilasci con sprint di una settimana."
+        }
+    },
+    "education": {
+        "0": {
+            "school": "ITIS E. Mattei - San Donato Milanese",
+            "start": "Set 1999",
+            "end": "Lug 2004",
+            "award": "Diploma di Perito Informatico",
+            "grade": "95/100"
+        },
+        "1": {
+            "school": "Università degli Studi di Milano",
+            "start": "Ott 2004",
+            "end": "Feb 2008",
+            "award": "Laurea Triennale in Comunicazione Digitale",
+            "grade": "95/110"
+        }
+    },
+    "courses": {
+        "0": {
+            "name": "ITIL® 4 Foundation Certification",
+            "organization": "Axelos – Certified by PeopleCert"
+        },
+        "1": {
+            "name": "Ultimate AWS Certified Solution Architect Associate 2020",
+            "organization": "Udemy"
+        },
+        "2": {
+            "name": "Microsoft DEV330x Creating Scalable, Robust, Interactive Code with Python",
+            "organization": "Microsoft"
+        },
+        "3": {
+            "name": "Front-End Web Development with React",
+            "organization": "The Hong Kong University of Science and Technology"
+        }
+    },
+    "skills": {
+        "devops": {
+            "description": "DevOps & CI/CD",
+            "tools": {
+                "0": {
+                    "name": "Git",
+                    "iconify_id": "cib:git"
+                },
+                "1": {
+                    "name": "Bitbucket",
+                    "iconify_id": "cib:bitbucket"                    
+                },
+                "2": {
+                    "name": "Travis CI",
+                    "iconify_id": "cib:travisci"                    
+                },
+                "3": {
+                    "name": "Ansible",
+                    "iconify_id": "cib:ansible"                    
+                },
+                "4": {
+                    "name": "Github",
+                    "iconify_id": "ant-design:github-filled"                    
+                },
+                "5": {
+                    "name": "Jenkins",
+                    "iconify_id": "cib:jenkins"                    
+                }
+            }
+        },
+        "cloud": {
+            "description": "Cloud Providers",
+            "tools": {
+                "0": {
+                    "name": "AWS",
+                    "iconify_id": "cib:amazon-aws"
+                }
+            }
+        },
+        "languages": {
+            "description": "Linguaggi di programmazione",
+            "tools": {
+                "0": {
+                    "name": "Python",
+                    "iconify_id": "carbon:logo-python"
+                },
+                "1": {
+                    "name": "Perl",
+                    "iconify_id": "simple-icons:perl"
+                },
+                "2": {
+                    "name": "Bash",
+                    "iconify_id": "mdi:bash"
+                },
+                "3": {
+                    "name": "PHP5",
+                    "iconify_id": "cib:php"
+                },
+                "4": {
+                    "name": "HTML5",
+                    "iconify_id": "ant-design:html5-filled"
+                },
+                "5": {
+                    "name": "CSS3",
+                    "iconify_id": "bx:bxl-css3"
+                },
+                "6": {
+                    "name": "Javascript",
+                    "iconify_id": "bx:bxl-javascript"
+                }
+            }
+        },
+        "frameworks": {
+            "description": "Frameworks, Appservers, Webservers",
+            "tools": {
+                "0": {
+                    "name": "Flask",
+                    "iconify_id": "cib:flask"
+                },
+                "1": {
+                    "name": "Dancer2",
+                    "iconify_id": "clarity:application-line"
+                },
+                "2": {
+                    "name": "Gunicorn",
+                    "iconify_id": "logos:gunicorn"
+                },
+                "3": {
+                    "name": "Plack",
+                    "iconify_id": "ant-design:cloud-server-outlined"
+                },
+                "4": {
+                    "name": "Bootstrap",
+                    "iconify_id": "bi:bootstrap"
+                },
+                "5": {
+                    "name": "Nginx",
+                    "iconify_id": "cib:nginx"
+                },
+                "6": {
+                    "name": "Apache",
+                    "iconify_id": "cib:apache"
+                },
+                "7": {
+                    "name": "React.js",
+                    "iconify_id": "bx:bxl-react"
+                },
+                "8": {
+                    "name": "Vue.js",
+                    "iconify_id": "cib:vue-js"
+                },
+                "9": {
+                    "name": "Apache::ASP",
+                    "iconify_id": "entypo:code"
+                }
+            }
+        },
+        "containers": {
+            "description": "Containers, Orchestrators, Virtualization",
+            "tools": {
+                "0": {
+                    "name": "Docker",
+                    "iconify_id": "cib:docker"
+                },
+                "1": {
+                    "name": "Compose",
+                    "iconify_id": "cib:docker"
+                },
+                "2": {
+                    "name": "Swarm (hands on)",
+                    "iconify_id": "cib:docker"
+                },
+                "3": {
+                    "name": "Kubernetes (hands on)",
+                    "iconify_id": "cib:kubernetes"
+                },
+                "4": {
+                    "name": "chroot jails",
+                    "iconify_id": "cib:linux"
+                },
+                "5": {
+                    "name": "VMWare",
+                    "iconify_id": "carbon:logo-vmware"
+                },
+                "6": {
+                    "name": "Virtualbox",
+                    "iconify_id": "carbon:virtual-machine"
+                }
+            }
+        },
+        "dbms": {
+            "description": "DBMS & DBCaches",
+            "tools": {
+                "0": {
+                    "name": "PostgreSQL",
+                    "iconify_id": "cib:postgresql"
+                },
+                "1": {
+                    "name": "MySQL",
+                    "iconify_id": "cib:mysql"
+                },
+                "2": {
+                    "name": "Oracle",
+                    "iconify_id": "cib:oracle"
+                },
+                "3": {
+                    "name": "Redis",
+                    "iconify_id": "cib:redis"
+                }
+            }
+        },
+        "testing": {
+            "description": "Unit and Load Tests",
+            "tools": {
+                "0": {
+                    "name": "pytest",
+                    "iconify_id": "clarity-ci-cd-line"
+                },
+                "1": {
+                    "name": "Plack::Test",
+                    "iconify_id": "clarity-ci-cd-line"
+                },
+                "2": {
+                    "name": "locust.io",
+                    "iconify_id": "whh-loadingseven"
+                }
+            }
+        },
+        "systems": {
+            "description": "Operating Systems",
+            "tools": {
+                "0": {
+                    "name": "Linux (Admin)",
+                    "iconify_id": "cib:linux"
+                },
+                "1": {
+                    "name": "Windows (superuser)",
+                    "iconify_id": "cib:windows"
+                }
+            }
+        },
+        "project_mgmt": {
+            "description": "Project Managing and Processes",
+            "tools": {
+                "0": {
+                    "name": "Jira",
+                    "iconify_id": "cib:jira"
+                },
+                "1": {
+                    "name": "Confluence",
+                    "iconify_id": "cib:confluence"
+                },
+                "2": {
+                    "name": "Trello",
+                    "iconify_id": "cib:trello"
+                },
+                "3": {
+                    "name": "ITIL",
+                    "iconify_id": "codicon:checklist"
+                }
+            }
+        }
+
+    },
+    "other_skills": {
+        "0": "Pluriennale esperienza in sviluppo integrazioni con CRM e gestionali utilizzando i seguenti protocolli: HTTP, REST, SOAP, HL7",
+        "1": "Integrazioni hardware su protocolli Serial TTY COM, USB COM",
+        "2": "Notifiche push e comunicazioni real time via web: HTTP Comet long polling, Websockets, HTTP server sent events",
+        "3": "Introduzione metodologia Agile in azienda (scrum, kanban) con Jira & Atlassian Suite",
+        "4": "Team leader di 4-5 persone",
+        "5": "Slack, Telegram Chatbot per notifiche automatiche monitoraggio",
+        "6": "Mentoring ai colleghi junior",
+        "7": "Analisi funzionali, analisi tecniche, stime tempistiche di progetto",
+        "8": "Gestione rapporti con stakeholders, sia tecnici sia operativi",
+        "9": "Abitudine a comunicare con il cliente",
+        "10": "Abitudine a lavorare per obiettivi"
+    }
 }
