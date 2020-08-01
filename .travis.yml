@@ -2,14 +2,18 @@ language: python
 python:
   - "3.7"
 before_install:
-    - sudo apt-get update
-    - sudo apt-get install dos2unix
+  - sudo apt-get update
+  - sudo apt-get install dos2unix
 install:
   - pip install -r requirements.txt
 before_script:
-    - dos2unix ./bin/docker_gunicorn_start.sh
-    - chmod +x ./bin/docker_gunicorn_start.sh
+  - dos2unix ./bin/docker_gunicorn_start.sh
+  - chmod +x ./bin/docker_gunicorn_start.sh
 script:
   - ./bin/docker_gunicorn_start.sh daemon
   - sleep 5
   - cd tests ; pytest
+deploy:
+  provider: heroku
+  api_key: $HEROKU_API_KEY
+  on: staging
