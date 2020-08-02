@@ -1,9 +1,10 @@
 language: python
 python:
   - "3.7"
-#before_install:
-#  - sudo apt-get update
-#  - sudo apt-get install dos2unix
+services:
+  - docker
+before_install:
+  - docker build -t resume-depo .
 #install:
 #  - pip install -r requirements.txt
 #before_script:
@@ -15,7 +16,11 @@ script:
 #  - ./bin/docker_gunicorn_start.sh daemon
 #  - sleep 5
   - cd tests ; pytest
-deploy:
-  provider: heroku
-  api_key: $HEROKU_API_KEY
-  app: resume-depo
+#deploy:
+#  provider: heroku
+#  api_key: $HEROKU_API_KEY
+#  app: resume-depo
+after-success:
+  - heroku auth:token
+  - heroku container:push web --app resume-depo
+  - heroku container:release web --app resume-depo
