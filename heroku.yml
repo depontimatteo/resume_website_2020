@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-    web: ./bin/docker_gunicorn_start.sh
+    web: gunicorn --chdir app app:app -w 2 --threads 2 -b 0.0.0.0:5000 --log-level debug
