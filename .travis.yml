@@ -9,8 +9,8 @@ install:
 before_script:
   - dos2unix ./bin/docker_gunicorn_start.sh
   - chmod +x ./bin/docker_gunicorn_start.sh
-  - git add ./bin/docker_gunicorn_start.sh
-  - git commit -m "Make docker_gunicorn_start.sh executable"
+  - git add .
+  - git commit -m "created repo from travis to heroku"
 script:
   - ./bin/docker_gunicorn_start.sh daemon
   - sleep 5
