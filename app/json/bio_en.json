@@ -14,43 +14,43 @@
     "city_area": "Milan",
     "country": "Italy",
     "phone": "(+39) 351.91.80.120",
-    "bio": "I am a software architect and developer, my core business is about web applications, APIs and bash scripting on OS Linux. I architect and manage Cloud infrastructures on AWS. I’m applying DevOps for automating software test, deploy and release. I use Python, Perl, HTML5, CSS3, Javascript and Bash with Apache2 or Nginx webservers, Gunicorn and Plack appservers, Flask and Dancer2 MVC Web Frameworks, PostgreSQL or mySQL DBMS. I have expertise on hardware and embedded solutions, mainly Raspberry Pi and Arduino.. I follow ITIL4 best practices and Agile Methodologies. After several years as an engineer, I’m currently managing a team of people"
+    "bio": "I am a software architect and developer, my core business is about web applications, APIs and bash scripting on OS Linux. I architect and manage Cloud infrastructures on AWS. I’m applying DevOps for automating software test, deploy and release. I use Python, Perl, HTML5, CSS3, Javascript and Bash with Apache2 or Nginx webservers, Gunicorn and Plack appservers, Flask and Dancer2 MVC Web Frameworks, PostgreSQL or mySQL DBMS. I have expertise on hardware and embedded solutions, mainly Raspberry Pi and Arduino.. I follow ITIL4 best practices and Agile Methodologies. After several years as an engineer, I’m currently managing a team of people",
     "experience": {
         "0": {
             "company": "Xidera srl",
             "start": "Apr 2008",
             "end": "Nov 2018",
-            "role": "Full Stack Software Engineer (Junior e Senior)",
-            "description": "Mi sono occupato di analisi e sviluppo di applicazioni web, di API e di gestione dei sistemi in ambiente Linux, con particolare cura verso le soluzioni embedded e non presidiate. Ho ricoperto il ruolo di Project Manager IT per tutti i progetti affrontati, secondo le linee guida ITIL. Progetti rilevanti: Chatbots, Sistema di gestione degli accessi pazienti presso diverse strutture, spesso sanitarie, revisione nuova versione S.O. caricato su dispositivi non presidiati"
+            "role": "Full Stack Software Engineer (Junior & Senior)",
+            "description": "I’ve analyzed and developed web applications and APIs, managed Linux OS, with a deep experience with unattended and embedded solutions. I worked also as IT Project Manager for all the projects I’ve been involved. Every project was managed with Agile Methodologies following ITIL best practices. Relevant Projects: Chatbots, Web Application focused on managing complex workflows of patients in healthcare facilities, Kiosk’s devices software reversioning."
         },
         "1": {
             "company": "Xidera srl (GPI Group)",
             "start": "Nov 2018",
-            "end": "attuale",
+            "end": "current",
             "role": "DevOps & Cloud Engineer – Tech Team Lead",
-            "description": "Gestisco il team di sviluppatori di Xidera, sia per quanto concerne lo sviluppo delle web applications e delle API di tutti i prodotti dell’azienda, sia per quanto riguarda lo sviluppo di software caricato su dispositivi non presidiati. Coordino e architetto le soluzioni Cloud su AWS, finalizzate al traffico elevato e all’alta affidabilità. Ho introdotto la metodologia DevOps e CI/CD con strumenti come Ansible e Bitbucket. Gestisco i software interni. Faccio parte del team di revisione dei processi. Mi occupo di effettuare tutte le analisi relative ai progetti IT e di gestirli fino al loro completamento, spesso sviluppando direttamente il software. Progetti rilevanti: sistema di pagamento automatico ai chioschi totem"
+            "description": "I manage the whole developers team of the company, both Web Applications and API developers and developers working on kiosk’s and embedded devices. I manage and architect scalable and high availability Cloud solutions on AWS. I’ve introduced DevOps solutions and CI/CD with tools like Docker, Ansible and Bitbucket. I manage company systems and internal software. I’m part of the team focused on continuous improvement and company’s workflow revisions. I take care of making all the estimates and analysis related to IT projects, managing them until they’re realized, often working directly on code. Relevant Projects: unattended kiosk’s payment solutions."
         },
         "2": {
             "company": "Xidera srl (GPI Group)",
             "start": "Mar 2020",
-            "end": "attuale",
+            "end": "current",
             "role": "Prenotami.cloud Tech Lead",
-            "description": "Sono il capo-progetto tecnico di prenotami.cloud, una soluzione SaaS derivante da una profonda revisione architetturale di alcuni software legacy preesistenti, per garantirne scalabilità orizzontale e quindi poter gestire l’applicazione in alta affidabilità e disponibilità in Cloud AWS. Ho architettato l’infrastruttura su AWS, scompattando una applicazione monolitica in diversi servizi, per arrivare ad una soluzione SOA scalabile. Ho utilizzato chroot jails e Docker come sistemi di containerizzazione. Ho studiato e implementato una pipeline CI utilizzando Bitbucket Pipelines ed un sistema di CD con Ansible come strumento di delivery in produzione. Ho utilizzato locust.io come piattaforma di load & stress testing. Ho configurato ed usato diversi servizi AWS, sia per la creazione dell’infrastruttura (ELB, EC2, RDS, Route53, API GW, Lambda, solo per citarne alcuni) sia per le operations e il monitoraggio (CloudWatch). Il progetto prevede una gestione in modalità Agile, con metodologia Scrum e rilasci con sprint di una settimana."
+            "description": "I'm in charge as tech lead of prenotami.cloud, a cloud SaaS solution resulting from a deep architectural revision of several legacy on-premise-designed softwares, made for guarantee horizontal scalability and high availability and high reliability in AWS Cloud. I've architected the system infrastructure on AWS, decoupling a monolithic web application in several services, in order to reach a SOA scalable solution. I've used chroot jails and Docker as containerization tools. I've studied and realized a CI pipeline using Bitbucket Pipelines and a CD system using Ansible as automation platform. I've used Locust.io as load & stress testing platform. I've configured and used several AWS services, both for building the infrastructure (ELB, EC2, RDS, Route53, API GW, Lambda, etc.) and operations and monitoring (CloudWatch). This project is managed with Agile methodology, with Scrum pattern and one-week or ten-days sprints."
         }
     },
     "education": {
         "0": {
             "school": "ITIS E. Mattei - San Donato Milanese",
-            "start": "Set 1999",
-            "end": "Lug 2004",
-            "award": "Diploma di Perito Informatico",
+            "start": "Sep 1999",
+            "end": "Jul 2004",
+            "award": "Secondary School Diploma in Computer Science",
             "grade": "95/100"
         },
         "1": {
             "school": "Università degli Studi di Milano",
-            "start": "Ott 2004",
+            "start": "Oct 2004",
             "end": "Feb 2008",
-            "award": "Laurea Triennale in Comunicazione Digitale",
+            "award": "Bachelor’s Degree in Digital Communications",
             "grade": "95/110"
         }
     },
@@ -108,11 +108,15 @@
                 "0": {
                     "name": "AWS",
                     "iconify_id": "cib:amazon-aws"
-                }
+                },
+                "1": {
+                    "name": "Heroku",
+                    "iconify_id": "cib:heroku"
+                }              
             }
         },
         "languages": {
-            "description": "Linguaggi di programmazione",
+            "description": "Programming Languages",
             "tools": {
                 "0": {
                     "name": "Python",
@@ -297,16 +301,16 @@
 
     },
     "other_skills": {
-        "0": "Pluriennale esperienza in sviluppo integrazioni con CRM e gestionali utilizzando i seguenti protocolli: HTTP, REST, SOAP, HL7",
-        "1": "Integrazioni hardware su protocolli Serial TTY COM, USB COM",
-        "2": "Notifiche push e comunicazioni real time via web: HTTP Comet long polling, Websockets, HTTP server sent events",
-        "3": "Introduzione metodologia Agile in azienda (scrum, kanban) con Jira & Atlassian Suite",
-        "4": "Team leader di 4-5 persone",
-        "5": "Slack, Telegram Chatbot per notifiche automatiche monitoraggio",
-        "6": "Mentoring ai colleghi junior",
-        "7": "Analisi funzionali, analisi tecniche, stime tempistiche di progetto",
-        "8": "Gestione rapporti con stakeholders, sia tecnici sia operativi",
-        "9": "Abitudine a comunicare con il cliente",
-        "10": "Abitudine a lavorare per obiettivi"
+        "0": "Multi-year experience on developing system integrations with CRMs using protocols: HTTP, REST, SOAP, HL7",
+        "1": "Hardware integrations on protocols: Serial TTY COM, USB COM",
+        "2": "Push notifications and web real time communications: HTTP Comet long polling, Websockets, HTP server sent events",
+        "3": "Introducing Agile methodology in current company (scrum, kanban) with Jira & Atlassian Suite",
+        "4": "Team leader of 4-5 people",
+        "5": "Slack, Telegram Chatbot for automatic monitoring notifications",
+        "6": "Mentoring to junior engineers",
+        "7": "Functional and technical analysis, project technical estimates",
+        "8": "Managing dealing with stakeholders, both technical and operatives",
+        "9": "Used to facing with customers",
+        "10": "Used to work for objectives"
     }
 }

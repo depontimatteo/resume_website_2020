@@ -6,7 +6,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">{{ bio.first_name }} {{ bio.last_name }}</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ url_for('static', filename='assets/img/profile.jpg') }}" alt="" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -37,8 +37,8 @@
                         {{ gettext('Questo sito web rappresenta una <strong>Proof of Concept</strong> di un progetto sviluppato seguendo la filosofia e gli strumenti <strong>DevOps</strong>.<br />') }}
                         {{ gettext('Il linguaggio di programmazione di backend è il <strong>Python</strong>, i linguaggi di frontend sono <strong>HTML5, CSS3, Javascript</strong>.<br />') }}
                         {{ gettext('Il web framework MVC utilizzato è <strong>Flask</strong>, configurato per essere servito da un Application Server <strong>Gunicorn</strong> protetto da <strong>Nginx</strong> come webserver in modalità <strong>reverse proxy</strong>. Il grid-system è <strong>Bootstrap</strong>.<br />') }}
-                        {{ gettext('Come sistema di containerizzazione è stato scelto <strong>Docker</strong> (<strong>docker-compose</strong> come orchestratore non distribuito in ambiente di sviluppo).<br />') }}
-                        {{ gettext("Gli unit test sono stati realizzati con <strong>pytest</strong>, mentre la componente di versionamento del codice prevede l'utilizzo di <strong>Git</strong> e un repository remoto su <strong>Github</strong>, integrato con <strong>Travis CI</strong> per abilitare i test automatici in modalità <strong>Continuous Integration</strong>.<br />") }}
+                        {{ gettext('Come sistema di containerizzazione è stato scelto <strong>Docker</strong> (<strong>docker-compose</strong> come orchestratore non distribuito in sviluppo).<br />') }}
+                        {{ gettext("Gli unit test sono stati realizzati con <strong>pytest</strong>, mentre la componente di versionamento del codice prevede l'utilizzo di <strong>Git</strong> e un repository remoto su <strong>Github</strong>, integrato con <strong>Travis CI</strong> per abilitare i test automatici in modalità <strong>Continuous Integration</strong> e la release automatica del codice su <strong>Heroku</strong> in modalità <strong>Continuous Delivery</strong>.<br />") }}
                         {{ gettext("Il repository del progetto è disponibile qui: <a href='https://github.com/depontimatteo/resume_website_2020'>https://github.com/depontimatteo/resume_website_2020</a>") }}
 
                     </p>

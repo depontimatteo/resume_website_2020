@@ -108,6 +108,10 @@
                 "0": {
                     "name": "AWS",
                     "iconify_id": "cib:amazon-aws"
+                },
+                "1": {
+                    "name": "Heroku",
+                    "iconify_id": "cib:heroku"
                 }
             }
         },
@@ -190,7 +194,7 @@
             }
         },
         "containers": {
-            "description": "Containers, Orchestrators, Virtualization",
+            "description": "Containers, Orchestratori, Virtualizzazione",
             "tools": {
                 "0": {
                     "name": "Docker",
@@ -261,7 +265,7 @@
             }
         },
         "systems": {
-            "description": "Operating Systems",
+            "description": "Sistemi Operativi",
             "tools": {
                 "0": {
                     "name": "Linux (Admin)",
@@ -274,7 +278,7 @@
             }
         },
         "project_mgmt": {
-            "description": "Project Managing and Processes",
+            "description": "Project Managing e Processi",
             "tools": {
                 "0": {
                     "name": "Jira",
