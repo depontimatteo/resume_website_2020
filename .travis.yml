@@ -4,16 +4,16 @@ python:
 #before_install:
 #  - sudo apt-get update
 #  - sudo apt-get install dos2unix
-install:
-  - pip install -r requirements.txt
+#install:
+#  - pip install -r requirements.txt
 #before_script:
 #  - dos2unix ./bin/docker_gunicorn_start.sh
 #  - chmod +x ./bin/docker_gunicorn_start.sh
 #  - git add ./bin/docker_gunicorn_start.sh
 #  - git commit -m "created docker_gunicorn_start executable"
 script:
-  - ./bin/docker_gunicorn_start.sh daemon
-  - sleep 5
+#  - ./bin/docker_gunicorn_start.sh daemon
+#  - sleep 5
   - cd tests ; pytest
 deploy:
   provider: heroku
