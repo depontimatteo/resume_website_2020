@@ -1,16 +1,16 @@
 language: python
 python:
   - "3.7"
-before_install:
-  - sudo apt-get update
-  - sudo apt-get install dos2unix
+#before_install:
+#  - sudo apt-get update
+#  - sudo apt-get install dos2unix
 install:
   - pip install -r requirements.txt
-before_script:
-  - dos2unix ./bin/docker_gunicorn_start.sh
-  - chmod +x ./bin/docker_gunicorn_start.sh
-  - git add .
-  - git commit -m "created repo from travis to heroku"
+#before_script:
+#  - dos2unix ./bin/docker_gunicorn_start.sh
+#  - chmod +x ./bin/docker_gunicorn_start.sh
+#  - git add ./bin/docker_gunicorn_start.sh
+#  - git commit -m "created docker_gunicorn_start executable"
 script:
   - ./bin/docker_gunicorn_start.sh daemon
   - sleep 5
