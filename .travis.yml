@@ -1,21 +1,7 @@
 language: python
 python:
   - "3.7"
-services:
-  - docker
-#before_install:
-#  - docker build -t resume-depo .
-#install:
-#  - pip install -r requirements.txt
-#before_script:
-#  - dos2unix ./bin/docker_gunicorn_start.sh
-#  - chmod +x ./bin/docker_gunicorn_start.sh
-#  - git add ./bin/docker_gunicorn_start.sh
-#  - git commit -m "created docker_gunicorn_start executable"
 script:
-#  - ./bin/docker_gunicorn_start.sh daemon
-  - ls -l
-  - sleep 5
   - cd tests ; pytest
 before_deploy:
   - cd ..
@@ -23,7 +9,3 @@ deploy:
   provider: heroku
   api_key: $HEROKU_API_KEY
   app: resume-depo
-#after-success:
-#  - heroku auth:token
-#  - heroku container:push web --app resume-depo
-#  - heroku container:release web --app resume-depo
