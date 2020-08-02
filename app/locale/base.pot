@@ -1,0 +1,100 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-08-03 00:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: app/templates/resume/index.html:14
+msgid "Chi sono"
+msgstr ""
+
+#: app/templates/resume/index.html:15
+msgid "Esperienza"
+msgstr ""
+
+#: app/templates/resume/index.html:16 app/templates/resume/index.html:75
+msgid "Formazione"
+msgstr ""
+
+#: app/templates/resume/index.html:17 app/templates/resume/index.html:95
+msgid "Skills"
+msgstr ""
+
+#: app/templates/resume/index.html:18
+msgid "Certificazioni e Corsi"
+msgstr ""
+
+#: app/templates/resume/index.html:37
+msgid ""
+"Questo sito web rappresenta una <strong>Proof of Concept</strong> di un "
+"progetto sviluppato seguendo la filosofia e gli strumenti "
+"<strong>DevOps</strong>.<br />"
+msgstr ""
+
+#: app/templates/resume/index.html:38
+msgid ""
+"Il linguaggio di programmazione di backend è il <strong>Python</strong>, "
+"i linguaggi di frontend sono <strong>HTML5, CSS3, Javascript</strong>.<br"
+" />"
+msgstr ""
+
+#: app/templates/resume/index.html:39
+msgid ""
+"Il web framework MVC utilizzato è <strong>Flask</strong>, configurato per"
+" essere servito da un Application Server <strong>Gunicorn</strong> "
+"protetto da <strong>Nginx</strong> come webserver in modalità "
+"<strong>reverse proxy</strong>. Il grid-system è "
+"<strong>Bootstrap</strong>.<br />"
+msgstr ""
+
+#: app/templates/resume/index.html:40
+msgid ""
+"Come sistema di containerizzazione è stato scelto <strong>Docker</strong>"
+" (<strong>docker-compose</strong> come orchestratore non distribuito in "
+"ambiente di sviluppo).<br />"
+msgstr ""
+
+#: app/templates/resume/index.html:41
+msgid ""
+"Gli unit test sono stati realizzati con <strong>pytest</strong>, mentre "
+"la componente di versionamento del codice prevede l'utilizzo di "
+"<strong>Git</strong> e un repository remoto su <strong>Github</strong>, "
+"integrato con <strong>Travis CI</strong> per abilitare i test automatici "
+"in modalità <strong>Continuous Integration</strong>.<br />"
+msgstr ""
+
+#: app/templates/resume/index.html:42
+msgid ""
+"Il repository del progetto è disponibile qui: <a "
+"href='https://github.com/depontimatteo/resume_website_2020'>https://github.com/depontimatteo/resume_website_2020</a>"
+msgstr ""
+
+#: app/templates/resume/index.html:56
+msgid "Esperienza professionale"
+msgstr ""
+
+#: app/templates/resume/index.html:83
+msgid "Valutazione"
+msgstr ""
+
+#: app/templates/resume/index.html:108
+msgid "Altre Skills"
+msgstr ""
+
+#: app/templates/resume/index.html:125
+msgid "Certificazioni e corsi"
+msgstr ""
+
