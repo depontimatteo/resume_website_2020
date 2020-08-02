@@ -3,8 +3,8 @@ python:
   - "3.7"
 services:
   - docker
-before_install:
-  - docker build -t resume-depo .
+#before_install:
+#  - docker build -t resume-depo .
 #install:
 #  - pip install -r requirements.txt
 #before_script:
@@ -14,7 +14,8 @@ before_install:
 #  - git commit -m "created docker_gunicorn_start executable"
 script:
 #  - ./bin/docker_gunicorn_start.sh daemon
-#  - sleep 5
+  - ls -l
+  - sleep 5
   - cd tests ; pytest
 deploy:
   provider: heroku
