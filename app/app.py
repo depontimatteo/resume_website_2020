@@ -1,10 +1,13 @@
-from flask import Flask, render_template
+import secrets
+from flask import Flask, render_template, session, request
 from flask_cors import CORS
 from flask_babel import *
 from api_v1 import api_v1 as api_v1_blueprint
 from html_v1 import html_v1 as html_v1_blueprint
 
 app = Flask(__name__)
+secret = secrets.token_urlsafe(32)
+app.secret_key = secret
 app.config.from_pyfile('../conf/i18n/flask_babel.conf')
 
 CORS(app)
@@ -19,15 +22,9 @@ app.register_blueprint(html_v1_blueprint)
 # Managing i18n
 @babel.localeselector
 def get_locale():
-    # if a user is logged in, use the locale from the user settings
-    #user = getattr(g, 'user', None)
-    #if user is not None:
-    #    return user.locale
-    # otherwise try to guess the language from the user accept
-    # header the browser transmits.  We support de/fr/en in this
-    # example.  The best match wins.
-    #return request.accept_languages.best_match(['it', 'en', 'de', 'fr'])
-    return 'it'
+    if request.args.get('lang_id_p'):
+        session['lang'] = request.args.get('lang_id_p')
+    return session.get('lang', 'it')
 
 @babel.timezoneselector
 def get_timezone():

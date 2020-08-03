@@ -14,7 +14,7 @@
     "city_area": "Milan",
     "country": "Italy",
     "phone": "(+39) 351.91.80.120",
-    "bio": "I am a software architect and developer, my core business is about web applications, APIs and bash scripting on OS Linux. I architect and manage Cloud infrastructures on AWS. I’m applying DevOps for automating software test, deploy and release. I use Python, Perl, HTML5, CSS3, Javascript and Bash with Apache2 or Nginx webservers, Gunicorn and Plack appservers, Flask and Dancer2 MVC Web Frameworks, PostgreSQL or mySQL DBMS. I have expertise on hardware and embedded solutions, mainly Raspberry Pi and Arduino.. I follow ITIL4 best practices and Agile Methodologies. After several years as an engineer, I’m currently managing a team of people",
+    "bio": "I am a software architect and developer, my core business is about web applications, APIs and bash scripting on OS Linux. I architect and manage Cloud infrastructures on AWS. I’m applying DevOps for automating software test, deploy and release. I use Python, Perl, HTML5, CSS3, Javascript and Bash with Apache2 or Nginx webservers, Gunicorn and Plack appservers, Flask and Dancer2 MVC Web Frameworks, PostgreSQL or mySQL DBMS. I have expertise on hardware and embedded solutions, mainly Raspberry Pi and Arduino.. I follow ITIL4 best practices and Agile Methodologies. After several years as an engineer, I’m currently managing a team.",
     "experience": {
         "0": {
             "company": "Xidera srl",

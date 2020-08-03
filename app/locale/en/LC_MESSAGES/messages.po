@@ -38,6 +38,10 @@ msgstr ""
 msgid "Certificazioni e Corsi"
 msgstr "Certifications & Courses"
 
+#: app/templates/resume/index.html:21
+msgid "Lingua"
+msgstr "Language"
+
 #: app/templates/resume/index.html:37
 msgid ""
 "Questo sito web rappresenta una <strong>Proof of Concept</strong> di un "
