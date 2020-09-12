@@ -56,16 +56,16 @@
     },
     "courses": {
         "0": {
-            "name": "AWS Cloud Practitioner Certification",
+            "name": "AWS Solution Architect Associate Certification",
             "organization": "Amazon Web Services"
         },
         "1": {
-            "name": "ITIL® 4 Foundation Certification",
-            "organization": "Axelos – Certified by PeopleCert"
+            "name": "AWS Cloud Practitioner Certification",
+            "organization": "Amazon Web Services"
         },
         "2": {
-            "name": "Ultimate AWS Certified Solution Architect Associate 2020",
-            "organization": "Udemy"
+            "name": "ITIL® 4 Foundation Certification",
+            "organization": "Axelos – Certified by PeopleCert"
         },
         "3": {
             "name": "Microsoft DEV330x Creating Scalable, Robust, Interactive Code with Python",
@@ -74,6 +74,10 @@
         "4": {
             "name": "Front-End Web Development with React",
             "organization": "The Hong Kong University of Science and Technology"
+        },
+        "5": {
+            "name": "DMx102: Introduction to Arduino Programming",
+            "organization": "Institut Mines-Télécom"
         }
     },
     "skills": {
