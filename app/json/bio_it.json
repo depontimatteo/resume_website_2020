@@ -72,10 +72,18 @@
             "organization": "Microsoft"
         },
         "4": {
+            "name": "Amazon ECS & Fargate Master Class - Docker on AWS",
+            "organization": "Udemy"
+        },
+        "5": {
+            "name": "AWS CloudFormation Master Class",
+            "organization": "Udemy"
+        },
+        "6": {
             "name": "Front-End Web Development with React",
             "organization": "The Hong Kong University of Science and Technology"
         },
-        "5": {
+        "7": {
             "name": "DMx102: Introduction to Arduino Programming",
             "organization": "Institut Mines-Télécom"
         }
