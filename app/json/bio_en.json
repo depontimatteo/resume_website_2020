@@ -89,6 +89,27 @@
         }
     },
     "skills": {
+        "observability": {
+            "description": "Monitoring & Observability",
+            "tools": {
+                "0": {
+                    "name": "AWS CloudWatch",
+                    "iconify_id": "logos:aws-cloudwatch"
+                },
+                "1": {
+                    "name": "Elasticsearch",
+                    "iconify_id": "simple-icons:elasticsearch"                    
+                },
+                "2": {
+                    "name": "Logstash",
+                    "iconify_id": "cib:logstash"                    
+                },
+                "3": {
+                    "name": "Kibana",
+                    "iconify_id": "cib:kibana"                    
+                }
+            }
+        },
         "devops": {
             "description": "DevOps & CI/CD",
             "tools": {
@@ -115,6 +136,14 @@
                 "5": {
                     "name": "Jenkins",
                     "iconify_id": "cib:jenkins"                    
+                },
+                "6": {
+                    "name": "Terraform",
+                    "iconify_id": "cib:terraform"                    
+                },
+                "7": {
+                    "name": "AWS CloudFormation",
+                    "iconify_id": "logos:aws-cloudformation"                    
                 }
             }
         },
