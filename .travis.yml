@@ -2,7 +2,8 @@ language: python
 python:
   - "3.7"
 script:
-  - cd tests ; pytest
+  - export PATH=$(pwd)/tests/selenium_drivers:$PATH
+  - cd tests ; pytest -v
 before_deploy:
   - cd ..
 deploy:
