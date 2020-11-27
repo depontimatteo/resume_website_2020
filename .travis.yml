@@ -2,10 +2,10 @@ language: python
 python:
   - "3.7"
 script:
-  - export PATH=$(pwd)/tests/selenium_drivers:$PATH
-  - chmod 755 tests/selenium_drivers/chromedriver
-  - chmod 755 tests/selenium_drivers/geckodriver
-  - cd tests ; pytest -v
+  #- export PATH=$(pwd)/tests/selenium_drivers:$PATH
+  #- chmod 755 tests/selenium_drivers/chromedriver
+  #- chmod 755 tests/selenium_drivers/geckodriver
+  - cd tests ; pytest -v test_index.py
 before_deploy:
   - cd ..
 deploy:
