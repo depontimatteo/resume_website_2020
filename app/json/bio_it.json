@@ -3,7 +3,7 @@
     "first_name": "Matteo",
     "last_name": "De Ponti",
     "role": "DevOps & Cloud Engineer",
-    "linkedin":"https://www.linkedin.com/in/matteo-de-ponti-2a904635",
+    "linkedin":"https://www.linkedin.com/in/matteo-de-ponti/",
     "twitter":"https://www.twitter.com/depontimatteo",
     "github":"https://www.github.com/depontimatteo",
     "web":"www.maculade.com",
@@ -14,7 +14,7 @@
     "city_area": "Milano",
     "country": "Italia",
     "phone": "(+39) 351.91.80.120",
-    "bio": "Mi occupo di architettare e sviluppare software (principalmente applicazioni web, API e bash scripting) e di gestire Sistemi Operativi in ambiente Linux. Architetto e gestisco infrastrutture in Cloud con AWS. Applico DevOps automatizzando la produzione, il testing e il rilascio di software. Programmo principalmente in Python, Perl, HTML5, Javascript e Bash, utilizzo webserver Apache2 e Nginx, appserver Gunicorn e Plack, web frameworks MVC Flask e Dancer2, DBMS PostgreSQL e mySQL. Sono esperto di hardware integrato, con esperienza su Raspberry Pi e Arduino. Sono abituato a realizzare i progetti IT in autonomia, secondo le linee guida ITIL® 4. Gestisco e coordino un team di sviluppatori.",
+    "bio": "Mi occupo di architettare e sviluppare software (principalmente applicazioni web, API e bash scripting) e di gestire Sistemi Operativi in ambiente Linux, anche mediante orchestratori come Kubernetes. Architetto e gestisco infrastrutture in Cloud con AWS. Applico DevOps automatizzando la produzione, il testing e il rilascio di software. Programmo principalmente in Python, Perl, HTML5, Javascript e Bash, utilizzo webserver Apache2 e Nginx, appserver Gunicorn e Plack, web frameworks MVC Flask e Dancer2, DBMS PostgreSQL, MongoDB e mySQL. Sono esperto di hardware integrato, con esperienza su Raspberry Pi e Arduino. Sono abituato a realizzare i progetti IT in autonomia, secondo le linee guida ITIL® 4. Gestisco e coordino un team di sviluppatori.",
     "experience": {
         "0": {
             "company": "Xidera srl",
@@ -26,16 +26,23 @@
         "1": {
             "company": "Xidera srl (GPI Group)",
             "start": "Nov 2018",
-            "end": "attuale",
+            "end": "Gen 2021",
             "role": "DevOps & Cloud Engineer – Tech Team Lead",
-            "description": "Gestisco il team di sviluppatori di Xidera, sia per quanto concerne lo sviluppo delle web applications e delle API di tutti i prodotti dell’azienda, sia per quanto riguarda lo sviluppo di software caricato su dispositivi non presidiati. Coordino e architetto le soluzioni Cloud su AWS, finalizzate al traffico elevato e all’alta affidabilità. Ho introdotto la metodologia DevOps e CI/CD con strumenti come Ansible e Bitbucket. Gestisco i software interni. Faccio parte del team di revisione dei processi. Mi occupo di effettuare tutte le analisi relative ai progetti IT e di gestirli fino al loro completamento, spesso sviluppando direttamente il software. Progetti rilevanti: sistema di pagamento automatico ai chioschi totem"
+            "description": "Ho gestito il team di sviluppatori di Xidera, sia per quanto concerne lo sviluppo delle web applications e delle API di tutti i prodotti dell’azienda, sia per quanto riguarda lo sviluppo di software caricato su dispositivi non presidiati. Ho coordinato e architettato le soluzioni Cloud su AWS, finalizzate al traffico elevato e all’alta affidabilità. Ho introdotto la metodologia DevOps e CI/CD con strumenti come Ansible e Bitbucket. Gestisco i software interni. Ho fatto parte del parte del team di revisione dei processi. Mi sono occupato di effettuare tutte le analisi relative ai progetti IT e di gestirli fino al loro completamento, spesso sviluppando direttamente il software. Progetti rilevanti: sistema di pagamento automatico ai chioschi totem"
         },
         "2": {
             "company": "Xidera srl (GPI Group)",
             "start": "Mar 2020",
-            "end": "attuale",
+            "end": "Gen 2021",
             "role": "Prenotami.cloud Tech Lead",
-            "description": "Sono il capo-progetto tecnico di prenotami.cloud, una soluzione SaaS derivante da una profonda revisione architetturale di alcuni software legacy preesistenti, per garantirne scalabilità orizzontale e quindi poter gestire l’applicazione in alta affidabilità e disponibilità in Cloud AWS. Ho architettato l’infrastruttura su AWS, scompattando una applicazione monolitica in diversi servizi, per arrivare ad una soluzione SOA scalabile. Ho utilizzato chroot jails e Docker come sistemi di containerizzazione. Ho studiato e implementato una pipeline CI utilizzando Bitbucket Pipelines ed un sistema di CD con Ansible come strumento di delivery in produzione. Ho utilizzato locust.io come piattaforma di load & stress testing. Ho configurato ed usato diversi servizi AWS, sia per la creazione dell’infrastruttura (ELB, EC2, RDS, Route53, API GW, Lambda, solo per citarne alcuni) sia per le operations e il monitoraggio (CloudWatch). Il progetto prevede una gestione in modalità Agile, con metodologia Scrum e rilasci con sprint di una settimana."
+            "description": "Sono stato il capo-progetto tecnico di prenotami.cloud, una soluzione SaaS derivante da una profonda revisione architetturale di alcuni software legacy preesistenti, per garantirne scalabilità orizzontale e quindi poter gestire l’applicazione in alta affidabilità e disponibilità in Cloud AWS. Ho architettato l’infrastruttura su AWS, scompattando una applicazione monolitica in diversi servizi, per arrivare ad una soluzione SOA scalabile. Ho utilizzato chroot jails e Docker come sistemi di containerizzazione. Ho studiato e implementato una pipeline CI utilizzando Bitbucket Pipelines ed un sistema di CD con Ansible come strumento di delivery in produzione. Ho utilizzato locust.io come piattaforma di load & stress testing. Ho configurato ed usato diversi servizi AWS, sia per la creazione dell’infrastruttura (ELB, EC2, RDS, Route53, API GW, Lambda, solo per citarne alcuni) sia per le operations e il monitoraggio (CloudWatch). Il progetto prevede una gestione in modalità Agile, con metodologia Scrum e rilasci con sprint di una settimana."
+        },
+        "3": {
+            "company": "Fastweb SpA",
+            "start": "Feb 2021",
+            "end": "attuale",
+            "role": "Network Automation Engineer",
+            "description": "Faccio parte del team di automazione del software che viene implementato per le piattaforme di gestione dei servizi in rete Fastweb. Gestisco applicazioni a microservizi con container Docker, mi occupo della creazione delle risorse Kubernetes necessarie agli applicativi e dei deploy mediante Helm. Inoltre realizzo test automatici E2E utilizzando Robot Framework. Applico DevOps utilizzando pipelines CI/CD su Gitlab, sia per il versionamento del codice applicativo, sia per il versionamento delle configurazioni Helm (GitOps)."
         }
     },
     "education": {
@@ -68,22 +75,34 @@
             "organization": "Axelos – Certified by PeopleCert"
         },
         "3": {
+            "name": "Kubernetes Certified Application Developer (CKAD) Preparation",
+            "organization": "Udemy"
+        },
+        "4": {
             "name": "Microsoft DEV330x Creating Scalable, Robust, Interactive Code with Python",
             "organization": "Microsoft"
         },
-        "4": {
+        "5": {
             "name": "Amazon ECS & Fargate Master Class - Docker on AWS",
             "organization": "Udemy"
         },
-        "5": {
+        "6": {
+            "name": "Apache Kafka Series",
+            "organization": "Udemy"
+        },
+        "7": {
+            "name": "Robot Framework Test Automation",
+            "organization": "Udemy"
+        },
+        "8": {
             "name": "AWS CloudFormation Master Class",
             "organization": "Udemy"
         },
-        "6": {
+        "9": {
             "name": "Front-End Web Development with React",
             "organization": "The Hong Kong University of Science and Technology"
         },
-        "7": {
+        "10": {
             "name": "DMx102: Introduction to Arduino Programming",
             "organization": "Institut Mines-Télécom"
         }
@@ -122,26 +141,34 @@
                     "iconify_id": "cib:bitbucket"                    
                 },
                 "2": {
+                    "name": "GitLab",
+                    "iconify_id": "cib:gitlab"                    
+                },
+                "3": {
                     "name": "Travis CI",
                     "iconify_id": "cib:travisci"                    
                 },
-                "3": {
+                "4": {
                     "name": "Ansible",
                     "iconify_id": "cib:ansible"                    
                 },
-                "4": {
+                "5": {
+                    "name": "Helm",
+                    "iconify_id": "cib:helm"                    
+                },
+                "6": {
                     "name": "Github",
                     "iconify_id": "ant-design:github-filled"                    
                 },
-                "5": {
+                "7": {
                     "name": "Jenkins",
                     "iconify_id": "cib:jenkins"                    
                 },
-                "6": {
+                "8": {
                     "name": "Terraform",
                     "iconify_id": "cib:terraform"                    
                 },
-                "7": {
+                "9": {
                     "name": "AWS CloudFormation",
                     "iconify_id": "logos:aws-cloudformation"                    
                 }
@@ -254,7 +281,7 @@
                     "iconify_id": "cib:docker"
                 },
                 "3": {
-                    "name": "Kubernetes (hands on)",
+                    "name": "Kubernetes",
                     "iconify_id": "cib:kubernetes"
                 },
                 "4": {
@@ -287,13 +314,17 @@
                     "iconify_id": "cib:oracle"
                 },
                 "3": {
+                    "name": "MongoDB",
+                    "iconify_id": "cib:mongodb"
+                },
+                "4": {
                     "name": "Redis",
                     "iconify_id": "cib:redis"
                 }
             }
         },
         "testing": {
-            "description": "Unit and Load Tests",
+            "description": "Unit, Integration & Load Tests",
             "tools": {
                 "0": {
                     "name": "pytest",
@@ -306,6 +337,14 @@
                 "2": {
                     "name": "locust.io",
                     "iconify_id": "whh-loadingseven"
+                },
+                "3": {
+                    "name": "RobotFramework",
+                    "iconify_id": "clarity-ci-cd-line"
+                },
+                "4": {
+                    "name": "Selenium Webdriver",
+                    "iconify_id": "simple-icons:selenium"
                 }
             }
         },
@@ -320,6 +359,15 @@
                     "name": "Windows (superuser)",
                     "iconify_id": "cib:windows"
                 }
+            }
+        },
+        "brokers": {
+            "description": "Message brokers",
+            "tools": {
+                "0": {
+                    "name": "Kafka",
+                    "iconify_id": "logos:kafka"
+                }                
             }
         },
         "project_mgmt": {
@@ -346,7 +394,7 @@
 
     },
     "other_skills": {
-        "0": "Pluriennale esperienza in sviluppo integrazioni con CRM e gestionali utilizzando i seguenti protocolli: HTTP, REST, SOAP, HL7",
+        "0": "Pluriennale esperienza in sviluppo integrazioni con CRM e gestionali utilizzando i seguenti protocolli: HTTP, REST, SOAP, HL7, TMF Standard (Telco)",
         "1": "Integrazioni hardware su protocolli Serial TTY COM, USB COM",
         "2": "Notifiche push e comunicazioni real time via web: HTTP Comet long polling, Websockets, HTTP server sent events",
         "3": "Introduzione metodologia Agile in azienda (scrum, kanban) con Jira & Atlassian Suite",
