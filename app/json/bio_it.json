@@ -63,20 +63,20 @@
     },
     "courses": {
         "0": {
+            "name": "CKAD - Certified Kubernetes Application Developer",
+            "organization": "The Linux Foundation"
+        },
+        "1": {
             "name": "AWS Solution Architect Associate Certification",
             "organization": "Amazon Web Services"
         },
-        "1": {
+        "2": {
             "name": "AWS Cloud Practitioner Certification",
             "organization": "Amazon Web Services"
         },
-        "2": {
+        "3": {
             "name": "ITIL® 4 Foundation Certification",
             "organization": "Axelos – Certified by PeopleCert"
-        },
-        "3": {
-            "name": "Kubernetes Certified Application Developer (CKAD) Preparation",
-            "organization": "Udemy"
         },
         "4": {
             "name": "Microsoft DEV330x Creating Scalable, Robust, Interactive Code with Python",
