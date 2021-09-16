@@ -40,9 +40,16 @@
         "3": {
             "company": "Fastweb SpA",
             "start": "Feb 2021",
-            "end": "attuale",
+            "end": "Ago 2021",
             "role": "Network Automation Engineer",
-            "description": "Faccio parte del team di automazione del software che viene implementato per le piattaforme di gestione dei servizi in rete Fastweb. Gestisco applicazioni a microservizi con container Docker, mi occupo della creazione delle risorse Kubernetes necessarie agli applicativi e dei deploy mediante Helm. Inoltre realizzo test automatici E2E utilizzando Robot Framework. Applico DevOps utilizzando pipelines CI/CD su Gitlab, sia per il versionamento del codice applicativo, sia per il versionamento delle configurazioni Helm (GitOps)."
+            "description": "Ho fatto parte del team di automazione del software che viene implementato per le piattaforme di gestione dei servizi in rete Fastweb. Ho gestito applicazioni a microservizi con container Docker, mi sono occupato della creazione delle risorse Kubernetes necessarie agli applicativi e dei deploy mediante Helm. Inoltre ho realizzato test automatici E2E utilizzando Robot Framework. Ho applicato DevOps utilizzando pipelines CI/CD su Gitlab, sia per il versionamento del codice applicativo, sia per il versionamento delle configurazioni Helm (GitOps)."
+        },
+        "4": {
+            "company": "Xidera srl (GPI Group)",
+            "start": "Ago 2021",
+            "end": "attuale",
+            "role": "Chief Technology Officer",
+            "description": ""
         }
     },
     "education": {
