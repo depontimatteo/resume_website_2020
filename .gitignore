@@ -1,2 +1,3 @@
 venv/*
 flask/__pycache__/*
+.idea
