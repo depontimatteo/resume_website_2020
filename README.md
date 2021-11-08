@@ -23,7 +23,7 @@ Change your working directory in the latest one created via `git clone`, where D
 
 ```
 docker build -t flask_website .
-docker run --name test_flask_website -it flask_website:latest -p 80:80
+docker run --name test_flask_website -it --env PORT=5000 -p 80:80 flask_website:latest
 ```
 
 ### docker-compose
