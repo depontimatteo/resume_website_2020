@@ -4,7 +4,7 @@ Developing a web application in Python with Flask Framework, templating with Boo
 
 ## Continuous Integration with Travis CI and Continuous Delivery with Heroku
 
-[![Build Status](https://travis-ci.org/depontimatteo/resume_website_2020.svg?branch=master)](https://travis-ci.org/depontimatteo/resume_website_2020)
+[![Build Status](https://app.travis-ci.com/depontimatteo/resume_website_2020.svg?branch=master)](https://app.travis-ci.com/depontimatteo/resume_website_2020)
 
 ### Project intro
 
