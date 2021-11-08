@@ -1,15 +1,12 @@
 language: python
 python:
-  - "3.7"
+- '3.7'
 script:
-  #- export PATH=$(pwd)/tests/selenium_drivers:$PATH
-  #- chmod 755 tests/selenium_drivers/chromedriver
-  #- chmod 755 tests/selenium_drivers/geckodriver
-  - cd tests ; pytest -v test_index.py
+- cd tests ; pytest -v test_index.py
 before_deploy:
-  - cd ..
+- cd ..
 deploy:
   provider: heroku
   api_key:
-    secure: "t/i89KJp3LxlOuxnqJkeAUjKOTFDadZGMTAeA55wpWHV6YIgs4rMXxtkvDUO+o2AMpkDyxOu8wImbTeG22ZM83RKea/Pn+ILDRBWnUenzC1B1tHWfMUGVjmmG3K51bGGX3q3FNVUvWYrDnwqJaNmnwUr1hJHZv7AL85j4+oM1QWfNFS4BwKUC9RYVtgVKrUmYrtIqTh6FqgrMWbjc77LIuQlm3Bu6uf3g4IP2rKg13RDv0hDzecP4c5pSujY+jFDTEPY8Xq7NyKbD3LZ2mf6FAdKxvPnxejijulS3U1c13xAHgM/TYs7Sh0l+FQ0iMXiQrd4uiGtAPnAJ8PqR8a9rsczHhO3CwQPsZ8d4QVmWNxQBBPKSvI81tuBjo+MssPNiH/vIJ3GymY2Kx/UGAs5AO+taosDXOlHmqdHriqq4pYoCo25RIqBE31DQ7Zi9e79okcXUl8y752LjTwsZpN3AOjRAij+nY3wHQK6fLJv1fvus70c57cWUiwQLCC4hmcqzaIXqlUS39wqIK5JjiT/1Q1xs5YKYgKHymSHTRT9fOQBL2aa76AgQNhXNOufs9XQajvhSpcmG4N/IHMqH/GURiUY/cdkNwTGtDQyK20Ls6jlAPPKATak5E1ScqlRAUyl0LObK4tHYn1Oi4cQ7skEgmAna3Uwhns6XI2U45xEOew="
+    secure: MiRGPgS2G/Zvso3XdFnAvMIRrWjh2iVWnVpOCx80rm3KJNLnmRiyIVyppZwAEcCUHcE8RHadxj0mRC9MkdH6jxJLr/1Z0wIOWJfNbJoHiK2WlDhb0v95Yyyy/htSPS49ySeT9TBrSHkSBGO1ShAB8/1JurBntPgbo3sX2rLwNXwglq51oMkN9BZQsXTfLBlQ3o48rd4YgPj3FAGWZ3naOUUWaELheXXReLs02NvY30xu1tP7ZwzOR2LNZXSPpjRk+vUb4WIkR0koYHx3mWAn6u3hrYK4yzjkTUcpUPnB2WIjNI9EwMfqN4FqELzgENjuc12VR3GSWoD2gO9zYPWYLAakuBc6pT0Wz+9/HivugQsFsULjqf+7TPdtDY3eQMpxrNAC8IB5vssWyUdQGvaNa5SJWWuNXCgbhyP+WLlrOarQtgnSygXaagL384UuSeQ4+WYrPE4AMh9kfaZygYMq2gvHx51u97BDZVlg2LGrVUZfxjPpAkrGBsKBNABPW2cjEpoVxiSjijGxDQMNX5iHVuJBao6U9PYRF+oOh+7H1r3csymQungzXb8m3cob1F2BP4hxE942Abl879zQSeOpjW3le86lrrGmhfxCXgxtBf9pGsIaC3Xf+fPSIywDYpcjMj6VIBD4LlkfKs5U0EHB3yjl7kWTBFaiQXWuYJjo4QM=
   app: resume-depo
