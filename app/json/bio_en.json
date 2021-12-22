@@ -412,5 +412,17 @@
         "8": "Managing dealing with stakeholders, both technical and operatives",
         "9": "Used to facing with customers",
         "10": "Used to work for objectives"
+    },
+    "blog": {
+        "0": {
+            "platform": "Gli Stati Generali",
+            "name": "Dietro le quinte della Digital Transformation",
+            "link": "https://www.glistatigenerali.com/app-software_internet-tech/dietro-le-quinte-della-digital-transformation/"
+        },
+        "1": {
+            "platform": "Medium",
+            "name": "Come fare code refactoring di un callback hell con async/await",
+            "link": "https://medium.com/@matteo.deponti/come-fare-code-refactoring-di-un-callback-hell-con-async-await-26b8bc2b0dee"
+        }
     }
 }

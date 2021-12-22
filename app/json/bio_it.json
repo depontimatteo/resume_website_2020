@@ -412,5 +412,17 @@
         "8": "Gestione rapporti con stakeholders, sia tecnici sia operativi",
         "9": "Abitudine a comunicare con il cliente",
         "10": "Abitudine a lavorare per obiettivi"
+    },
+    "blog": {
+        "0": {
+            "platform": "Gli Stati Generali",
+            "name": "Dietro le quinte della Digital Transformation",
+            "link": "https://www.glistatigenerali.com/app-software_internet-tech/dietro-le-quinte-della-digital-transformation/"
+        },
+        "1": {
+            "platform": "Medium",
+            "name": "Come fare code refactoring di un callback hell con async/await",
+            "link": "https://medium.com/@matteo.deponti/come-fare-code-refactoring-di-un-callback-hell-con-async-await-26b8bc2b0dee"
+        }
     }
 }
