@@ -16,6 +16,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">{{ gettext('Formazione') }}</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">{{ gettext('Skills') }}</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">{{ gettext('Certificazioni e Corsi') }}</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#blog">{{ gettext('Blog') }}</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon"> </span> {{ gettext('Lingua') }}</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown09">
@@ -155,6 +156,22 @@
                             <img src="{{ url_for('static', filename='assets/img/Axelos_ITIL4_Foundations.png') }}" width="168" height="168" />
                         </div>
                     </div>
+                </div>
+            </section>
+            <!-- Awards-->
+            <section class="resume-section" id="blog">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">{{ gettext('Blog')}}</h2>
+                    <ul class="fa-ul mb-0">
+                        {% if bio["blog"].items()|length > 0 %}
+                            {% for key,article in bio["blog"].items()|sort %}
+                            <li>
+                                <span class="fa-li"><i class="far fa-newspaper"></i></span>
+                                {{ article.name }} (<i>{{ article.platform }}</i>) - <a href="{{ article.link }}" target="_blank">{{ article.link }}</a>
+                            </li>
+                            {% endfor %}
+                        {% endif %}
+                    </ul>
                 </div>
             </section>
         </div>
