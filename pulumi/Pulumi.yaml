@@ -1,0 +1,6 @@
+name: resume-website
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Depo Resume Website
