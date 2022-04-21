@@ -5,7 +5,7 @@ metadata:
   labels:
     app: resume-website
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: resume-website

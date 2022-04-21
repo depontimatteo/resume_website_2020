@@ -30,10 +30,13 @@ eks_node_group = eks.NodeGroup(
         'Name': 'cluster-nodegroup',
     },
     scaling_config=eks.NodeGroupScalingConfigArgs(
-        desired_size=1,
+        desired_size=2,
         max_size=2,
         min_size=1,
     ),
 )
+
+### add ALB + ingress
+### add Cloudflare records
 
 pulumi.export('cluster-name', eks_cluster.name)
