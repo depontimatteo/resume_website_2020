@@ -46,14 +46,11 @@ service:
   port: 80
 
 ingress:
-  enabled: false
-  className: "public"
+  enabled: true
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
-    # kubernetes.io/ingress.class: nginx
-    # kubernetes.io/tls-acme: "true"
+    ingress.kubernetes.io/ssl-redirect: "false"
   hosts:
-    - host: maculade.com
+    - host: "*.maculade.com"
       paths:
         - path: /
           pathType: Prefix
