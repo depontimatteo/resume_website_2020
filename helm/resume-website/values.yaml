@@ -50,7 +50,7 @@ ingress:
   annotations:
     ingress.kubernetes.io/ssl-redirect: "false"
   hosts:
-    - host: "*.maculade.com"
+    - host: "www.maculade.com"
       paths:
         - path: /
           pathType: Prefix
