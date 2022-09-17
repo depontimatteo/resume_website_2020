@@ -48,16 +48,17 @@ service:
 ingress:
   enabled: true
   annotations:
-    ingress.kubernetes.io/ssl-redirect: "false"
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+    #traefik.ingress.kubernetes.io/router.middlewares: kube-system-redirect-https@kubernetescrd
   hosts:
     - host: "www.maculade.com"
       paths:
         - path: /
           pathType: Prefix
-  tls: []
-  #  - secretName: chart-example-tls
-  #    hosts:
-  #      - chart-example.local
+  tls:
+    - secretName: www-maculade-com-tls
+      hosts:
+        - www.maculade.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
