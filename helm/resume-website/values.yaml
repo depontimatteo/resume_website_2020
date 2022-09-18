@@ -48,8 +48,9 @@ service:
 ingress:
   enabled: true
   annotations:
-    traefik.ingress.kubernetes.io/router.entrypoints: web
-    #traefik.ingress.kubernetes.io/router.middlewares: kube-system-redirect-https@kubernetescrd
+    #traefik.ingress.kubernetes.io/router.entrypoints: web
+    #traefik.ingress.kubernetes.io/router.middlewares: default-redirect-https@kubernetescrd
+    ingress.kubernetes.io/ssl-redirect: "true"
   hosts:
     - host: "www.maculade.com"
       paths:
