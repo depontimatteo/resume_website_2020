@@ -6,7 +6,7 @@ metadata:
 spec:
   secretName: www-maculade-com-tls
   issuerRef:
-    name: resume-website-production
+    name: depo-issuer-production
     kind: ClusterIssuer
   commonName: www.maculade.com
   dnsNames:
