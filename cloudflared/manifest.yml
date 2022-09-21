@@ -90,6 +90,8 @@ data:
     ingress:
     # The first rule proxies traffic to the httpbin sample Service defined in app.yaml
     - hostname: www.maculade.com
-      service: http://resume-website:80
+      service: http://resume-website.resume-website.svc.cluster.local:80
+    - hostname: home.maculade.com
+      service: http://home-assistant.home-assistant.svc.cluster.local:8123
     # This rule matches any traffic which didn't match a previous rule, and responds with HTTP 404.
     - service: http_status:404
