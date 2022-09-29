@@ -93,5 +93,7 @@ data:
       service: http://resume-website.resume-website.svc.cluster.local:80
     - hostname: home.maculade.com
       service: http://home-assistant.home-assistant.svc.cluster.local:8123
+    - hostname: grafana.maculade.com
+      service: http://prometheus-grafana.tools.svc.cluster.local:80
     # This rule matches any traffic which didn't match a previous rule, and responds with HTTP 404.
     - service: http_status:404
