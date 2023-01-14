@@ -1,0 +1,6 @@
+name: cloudflare
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Cloudflare maculade.com infra

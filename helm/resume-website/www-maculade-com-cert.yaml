@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: www-maculade-com
+  namespace: resume-website
+spec:
+  secretName: www-maculade-com-tls
+  issuerRef:
+    name: depo-issuer-production
+    kind: ClusterIssuer
+  commonName: www.maculade.com
+  dnsNames:
+  - www.maculade.com
